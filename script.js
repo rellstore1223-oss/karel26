@@ -16,7 +16,7 @@ const products = [
         name: "Keyboard Mechanical RGB",
         price: 249000,
         category: "celana",
-        image: "image/keyboard.png",
+        image: "keyboard.png",
         link: "#"
     },
 
