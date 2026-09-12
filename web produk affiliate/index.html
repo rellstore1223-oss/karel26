@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KarelStore - Rekomendasi Produk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            KarelStore
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#produk">Produk</a>
+            <a href="#kategori">Kategori</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-small">
+                    WELCOME TO KARELSTORE
+                </p>
+
+                <h1>
+                    Temukan Produk
+                    <span>Favoritmu</span>
+                </h1>
+
+                <p class="hero-description">
+                    Temukan berbagai produk menarik
+                    yang kami rekomendasikan untuk kamu.
+                </p>
+
+                <button id="lihatProduk" class="hero-button">
+                    Lihat Produk
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PENCARIAN ================= -->
+
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Cari produk..."
+                >
+
+                <button id="searchButton">
+                    🔍
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= KATEGORI ================= -->
+
+        <section id="kategori" class="category-section">
+
+            <h2>Kategori</h2>
+
+            <div class="category-list">
+
+                <button class="category-button active">
+                    Semua
+                </button>
+
+                <button class="category-button">
+                    Fashion
+                </button>
+
+                <button class="category-button">
+                    Gaming
+                </button>
+
+                <button class="category-button">
+                    Elektronik
+                </button>
+
+                <button class="category-button">
+                    Aksesoris
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUK ================= -->
+
+        <section id="produk" class="product-section">
+
+            <div class="section-title">
+
+                <div>
+                    <p>REKOMENDASI</p>
+                    <h2>Produk Pilihan</h2>
+                </div>
+
+            </div>
+
+
+            <!-- Produk akan dibuat oleh JavaScript -->
+
+            <div
+                id="productContainer"
+                class="product-container">
+            </div>
+
+        </section>
+
+
+        <!-- ================= TENTANG ================= -->
+
+        <section id="tentang" class="about-section">
+
+            <div class="about-content">
+
+                <p class="section-label">
+                    TENTANG KAMI
+                </p>
+
+                <h2>
+                    Temukan produk yang
+                    sesuai kebutuhanmu.
+                </h2>
+
+                <p>
+                    KarelStore adalah website katalog
+                    yang berisi rekomendasi berbagai
+                    produk dari beberapa kategori.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>KarelStore</h3>
+
+            <p>
+                Rekomendasi produk pilihan untuk kamu.
+            </p>
+
+            <p class="copyright">
+                © 2026 KarelStore
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
